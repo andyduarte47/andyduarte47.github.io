@@ -1,5 +1,6 @@
 <h1>Unit project proposal</h1>
 <h2>Personal Profile</h2>
+<a href="https://ibb.co/y5kvywF"><img src="https://i.ibb.co/mtyZqL5/image-2.png" alt="image-2" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload pic</a><br />
 
 <h3>Project Description and Motivation:</h3> 
 This project will show my skills as a Software Developer, it will also give information about myself and the user will be able to view my past projects to see what I can do.
