@@ -1,5 +1,14 @@
+.picture {
+  width: 20%;
+  border-radius: 100%;
+  margin-top: 37px;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
 .container {
-  margin-top: 33px;
+  margin-top: 60px;
   margin-left: 350px;
 }
 
@@ -56,14 +65,14 @@ h3 {
   font-weight: 300;
 }
 .About {
-  margin-top: 33px;
-  margin-left: 0px;
+  margin-top: 30px;
+  margin-left: -350px;
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
 .Me {
-  margin-top: 33px;
+  margin-top: -13px;
   margin-left: 0px;
 }
 /* border section  */
@@ -78,10 +87,18 @@ h3 {
   border-width: thin;
   border-style: solid;
   border-color: #287ec7;
+  line-height:60px;
   margin-top: 33px;
   margin-left: -350px;
 }
 .projects {
+  border-width: thin;
+  border-style: solid;
+  border-color: #287ec7;
+  margin-top: 203px;
+  margin-left: -350px;
+}
+.projects-grid {
   border-width: thin;
   border-style: solid;
   border-color: #287ec7;
@@ -108,26 +125,26 @@ h3 {
 }
 .project-image {
   width: 50%;
-  margin-left: -330px;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
-.project-image2{
+.project-image2 {
   width: 50%;
-  margin-top: 220px;
-  margin-left: -449px;
-
+  margin-top: 350px;
+  margin-left: -623px;
 }
-.project-image3{
+.project-image3 {
   width: 50%;
-  margin-top: 445px;
-  margin-left: -449px;
+  margin-top: 800px;
+  margin-left: -624px;
 }
 /* end of contact section  */
 
 /* start contact section */
 .contact-section {
-  margin-top: 700px;
-  margin-left: -350px;
+  margin-top: 1100px;
+  margin-left: -1px;
 }
 .contact-section-header {
   text-align: center;
