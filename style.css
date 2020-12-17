@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body{
   background-color:#EBEBEB;
-  max-width:90vw;
 }
 
 
@@ -55,7 +54,7 @@ a {
 }
 .nav-list {
   display: flex;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 .name {
   margin-top: 125px;
@@ -118,20 +117,53 @@ h3 {
   line-height: 1.2;
 }
 .project-image {
-  width: 50%;
-  margin-top: -45px;
-  margin-left: 70px;
+  width: 100%;
+  margin-top: 65px;
+  position: relative;
+  margin-left: -150px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(26, 25, 25);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
 
 .project-image2 {
-  width: 50%;
-  margin-top: 150px;
-  margin-left: 70px;
+  width: 100%;
+  margin-top: -170px;
+  position: relative;
+  margin-left: -150px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(26, 25, 25);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
 .project-image3 {
-  width: 50%;
-  margin-top: 440px;
-  margin-left: -450px;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+  margin-left: -150px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(26, 25, 25);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -139,7 +171,19 @@ p{
 h2{
   font-family: 'Poppins', sans-serif;
 }
-/* end of contact section  */
+.Translate{
+  font-size: 15px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+/* end of project section  */
 
 /* start contact section */
 .contact-section {
