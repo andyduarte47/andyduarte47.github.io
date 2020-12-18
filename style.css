@@ -135,7 +135,7 @@ h3 {
 
 .project-image2 {
   width: 100%;
-  margin-top: -170px;
+  margin-top: -270px;
   position: relative;
   margin-left: -150px;
   display: -ms-flexbox;
@@ -233,3 +233,261 @@ h2{
   cursor: pointer;
 }
 /* end of contact section  */
+
+@media only screen and (max-width: 400px) {
+
+  h1 {
+    text-align: center;
+    position: relative;
+    left: 300px;
+  }
+
+  p{
+    position: relative;
+    left: 300px;
+    padding: 5%;
+  }
+  .picture {
+    width: 100%;
+    border-radius: 100%;
+    margin-top: 37px;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+  }
+  
+  .container {
+    margin-top: 60px;
+    margin-left: 350px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+  }
+  .github {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  .email{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #70CFFF;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  .nav-list {
+    display: flex;
+    margin-right: 1rem;
+  }
+  .name {
+    margin-top: 505px;
+    margin-left: 30px;
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .description {
+    margin-top: 33px;
+    margin-left: 50px;
+    font-size: 2.25rem;
+    font-weight: 300;
+  }
+  .Languages {
+    margin-top: 33px;
+    margin-left: -30px;
+  }
+  h3 {
+    margin-top: 33px;
+    margin-left: -30px;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  .About {
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .Me {
+    margin-top: -13px;
+    margin-left: -300px;
+  }
+  /* line section  */
+  .card {
+    position: relative;
+    left:300px;
+    margin-left: -300px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(26, 25, 25);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  
+  /* end  of line section */
+  
+  /* start of project section */
+  .projects {
+    margin-top: 33px;
+    margin-left: -300px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .Translator{
+    margin-top: 40px;
+    margin-left: -250px;
+    font-size: 3.5rem;
+  }
+  .project-image {
+    width: 250%;
+    margin-top: -135px;
+    position: relative;
+    margin-left: -230px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(26, 25, 25);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  .Translate{
+    margin-top:150px;
+    margin-left:40px;
+  }
+  .Pygameheader{
+    margin-top:-10px;
+    margin-left: 350px;
+    font-size: 3.5rem;
+  }
+  .project-image2 {
+    width: 250%;
+    margin-top: -270px;
+    position: relative;
+    margin-left: -150px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(26, 25, 25);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  .project-image3 {
+    width: 100%;
+    margin-top: -150px;
+    position: relative;
+    margin-left: -150px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(26, 25, 25);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  p{
+    font-family: 'Lato', sans-serif;
+  }
+  h2{
+    font-family: 'Poppins', sans-serif;
+  }
+  .Translate{
+    font-size: 15px;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  /* end of project section  */
+  
+  /* start contact section */
+  .contact-section {
+    margin-top: 1100px;
+    margin-left: -1px;
+  }
+  .contact-section-header {
+    text-align: center;
+  }
+  .contact-links {
+    text-align: center;
+  }
+  .github{
+    background-color:#70CFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .phone{
+    background-color:#70CFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .email{
+    background-color:#70CFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  /* end of contact section  */
+  
+}
