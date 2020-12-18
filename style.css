@@ -105,6 +105,18 @@ h3 {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+.card2{position: relative;
+  margin-left: -300px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(26, 25, 25);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;}
 
 /* end  of line section */
 
@@ -132,6 +144,11 @@ h3 {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+.project-title{
+  color:#70CFFF;
+  margin-left: -20px;
+}
+
 
 .project-image2 {
   width: 100%;
@@ -149,6 +166,10 @@ h3 {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+.project-title2{
+  color:#70CFFF;
+  margin-left: -40px;
+}
 .project-image3 {
   width: 100%;
   margin-top: -150px;
@@ -164,6 +185,10 @@ h3 {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+}
+.project-title3{
+  color:#70CFFF;
+  margin-left:-60px;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -250,6 +275,7 @@ h2{
   .container {
     margin-top: 60px;
     margin-left: 350px;
+    width:300px;
   }
   
   ul {
@@ -290,7 +316,7 @@ h2{
   }
   .name {
     margin-top: 105px;
-    margin-left: 230px;
+    margin-left: 150px;
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 1.2;
@@ -298,7 +324,7 @@ h2{
   }
   .description {
     margin-top: 33px;
-    margin-left: 230px;
+    margin-left: 150px;
     font-size: 2.25rem;
     font-weight: 300;
   }
@@ -314,7 +340,7 @@ h2{
   }
   .About {
     margin-top: 120px;
-    margin-left: -300px;
+    margin-left: -350px;
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.2;
@@ -327,7 +353,7 @@ h2{
   /* line section  */
   .card {
     position: relative;
-    margin-left: -300px;
+    margin-left: -350px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -338,6 +364,10 @@ h2{
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    
+  }
+  .card2{
+    display:None;
   }
   
   /* end  of line section */
@@ -345,21 +375,19 @@ h2{
   /* start of project section */
   .projects {
     margin-top: 33px;
-    margin-left: -300px;
+    margin-left: -350px;
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.2;
   }
   .Translator{
-    margin-top: 40px;
-    margin-left: -250px;
-    font-size: 3.5rem;
+    display: None;
   }
   .project-image {
     width: 250%;
-    margin-top: -135px;
+    margin-top: 15px;
     position: relative;
-    margin-left: -230px;
+    margin-left: -365px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -371,20 +399,31 @@ h2{
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
   }
+  .project-title{
+    margin-top: -10px;
+    margin-left: -100px;
+    font-size:50px;
+    color:black;
+  }
+  .Python{
+    display: None;
+  }
+  .date{
+    display:None
+  }
   .Translate{
-    margin-top:150px;
-    margin-left:140px;
+    display: None;
+    margin-top:None;
+    margin-left:None;
   }
   .Pygameheader{
-    margin-top:-10px;
-    margin-left: 350px;
-    font-size: 3.5rem;
+    display: None;
   }
   .project-image2 {
     width: 250%;
-    margin-top: -270px;
+    margin-top: -50px;
     position: relative;
-    margin-left: -150px;
+    margin-left: -365px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -396,11 +435,29 @@ h2{
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
   }
+  .project-title2{
+    margin-top: -10px;
+    margin-left:-180px;
+    color:black;
+    font-size:50px;
+  }
+  .zombie{
+    display:None;
+  }
+  .SurveyPage{
+    display:None;
+  }
+  .pygame{
+    display:None;
+  }
+  .date2{
+    display:None;
+  }
   .project-image3 {
     width: 250%;
-    margin-top: -150px;
+    margin-top: -15px;
     position: relative;
-    margin-left: -150px;
+    margin-left: -365px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -411,6 +468,12 @@ h2{
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+  }
+  .project-title3{
+    margin-top:-10px;
+    margin-left:-130px;
+    color:black;
+    font-size:50px;
   }
   p{
     font-family: 'Lato', sans-serif;
@@ -424,18 +487,19 @@ h2{
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
-    width: 100%;
+    grid-gap: 2rem;
+    width: 110%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
+    margin-bottom: -45rem;
   }
   /* end of project section  */
   
   /* start contact section */
+  
   .contact-section {
-    margin-top: 1100px;
-    margin-left: -1px;
+    margin-top: 1850px;
+    margin-left: 100px;
   }
   .contact-section-header {
     text-align: center;
@@ -454,6 +518,7 @@ h2{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    margin-top: 30px;
   }
   .phone{
     background-color:#70CFFF;
