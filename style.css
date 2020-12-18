@@ -188,7 +188,7 @@ h3 {
 }
 .project-title3{
   color:#70CFFF;
-  margin-left:-60px;
+  margin-left:-20px;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -212,7 +212,7 @@ h2{
 
 /* start contact section */
 .contact-section {
-  margin-top: 1100px;
+  margin-top: -1100px;
   margin-left: -1px;
 }
 .contact-section-header {
@@ -401,7 +401,7 @@ h2{
   }
   .project-title{
     margin-top: -10px;
-    margin-left: -100px;
+    margin-left: -150px;
     font-size:50px;
     color:black;
   }
@@ -471,7 +471,7 @@ h2{
   }
   .project-title3{
     margin-top:-10px;
-    margin-left:-130px;
+    margin-left:-150px;
     color:black;
     font-size:50px;
   }
@@ -498,7 +498,7 @@ h2{
   /* start contact section */
   
   .contact-section {
-    margin-top: 1850px;
+    margin-top: -950px;
     margin-left: 100px;
   }
   .contact-section-header {
