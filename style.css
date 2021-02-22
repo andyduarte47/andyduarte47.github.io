@@ -171,8 +171,8 @@ h3 {
   margin-left: -40px;
 }
 .project-image3 {
-  width: 100%;
-  margin-top: -150px;
+  width: 130%;
+  margin-top: -200px;
   position: relative;
   margin-left: -150px;
   display: -ms-flexbox;
@@ -188,7 +188,7 @@ h3 {
 }
 .project-title3{
   color:#70CFFF;
-  margin-left:-20px;
+  margin-left:40px;
 }
 p{
   font-family: 'Lato', sans-serif;
